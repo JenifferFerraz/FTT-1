@@ -1,0 +1,9 @@
+Grande parte do dia a dia de um desenvolvedor Back-end se resume a compreensão, estruturação e resolução de problemas. Seja solucionando bugs ou delimitando entidades, arquiteturas e relacionamentos do sistema, é fundamental saber interpretar cenários e encontrar os elementos a serem extraídos ou desenvolvidos. 
+
+Portanto, nessa etapa do desafio, analise o contexto proposto abaixo, produza a implementação necessária (em Python ou alguma outra linguagem com orientação a objetos) ou descreva-a de forma textual.
+
+"Você faz parte do time de uma empresa de animação que está realizando a digitalização de seus processos.
+
+Durante o desenvolvimento de uma nova ferramenta responsável por gerenciar personagens e os animadores responsáveis por cada um deles, sua equipe solicitou que implementasse de forma rudimentar um código que permitisse criar e visualizar personagens usando apenas os comandos e estruturas de dados base da linguagem.
+
+Cada um dos personagens contém nome, descrição, link para imagem, programa e animador."

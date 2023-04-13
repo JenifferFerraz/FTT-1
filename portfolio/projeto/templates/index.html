@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="portugueses">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FTT</title>
+    <link rel="stylesheet" href="{% static 'geral/css/swiper/swiper-bundle.min.css' %}" />
+    <link rel="stylesheet" href="{% static 'geral/css/style.css' %}" />
+    <link rel="stylesheet" href="{% static 'geral/css/all.css' %}" />
+  </head>
+  <body>
+    <nav>
+      <div class="container nav-container">
+        <h4>
+          <a href="" class="logo"><span>FTT</span></a>
+        </h4>
+        <ul>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#Service">Serviços</a></li>
+          <li><a href="#Project">Projetos</a></li>
+          <li><a href="#Skills">Skills</a></li>
+          <li><a href="#Contact" class="btn btn-primary">Contato</a></li>
+        </ul>
+        <div class="phone-button">
+          <i class="fa fa-bars open" aria-hidden="true"></i>
+          <i class="fa fa-close close" aria-hidden="true"></i>
+        </div>
+      </div>
+    </nav>
+    <!-- ................HOME ............ -->
+    <header id="Home">
+      <div class="container header-container">
+        <div class="header-left">
+          <h3>Olá</h3>
+          <h1>Nós somos a <span>Fábrica de Tecnologia Turing</span></h1>
+          <p class="title"></p>
+          <div class="vector"></div>
+          <p class="text-light">
+            A Fábrica de Tecnologias Turing (FTT) é um laboratório empresa,
+            estruturado em três núcleos (Fábrica de Software, Núcleo de
+            Capacitação e Núcleo de Pesquisa), e tem por objetivo formar alunos
+            com visão mercadológica. Aqui são desenvolvidos projetos reais, a
+            partir de parcerias locais e internacionais, fazendo uso de
+            metodologias, padrões, técnicas e ferramentas inovadoras requeridas
+            pelo mercado de trabalho. Assim, a FTT, contribui para a
+            integralização do perfil profissional do aluno e, atualmente, é
+            fonte de recrutamento de profissionais. Essa é uma estrutura madura,
+            pois desde 2006, alunos e professores dos cursos de computação
+            exercitam as práticas da Engenharia de Software na produção de
+            sistemas. Tanto os clientes como os projetos são reais, o que
+            permite a vivência profissional dos envolvidos, aproximando as
+            teorias e as práticas pedagógicas das necessidades do mercado.
+          </p>
+          <div class="button-aria">
+            <a href="" class="btn">Mais</a>
+          </div>
+        </div>
+        <div class="header-right">
+          <img src="{% static 'geral/img/logo1.png' %}" alt="" />
+          <div class="social">
+            <p></p>
+            <div class="social-link">
+              <a href="https://www.facebook.com/fttunievangelica/"
+                ><i class="fab fa-facebook" aria-hidden="true"></i
+              ></a>
+              <a href="https://www.instagram.com/uni.computacaoesoftware/"
+                ><i class="fab fa-instagram" aria-hidden="true"></i
+              ></a>
+              <a href="https://linkr.bio/engenhariadesoftware"
+                ><i class="fab fa-whatsapp" aria-hidden="true"></i
+              ></a>
+              <a href="https://www.linkedin.com/company/ftt-unievangelica/"
+                ><i class="fab fa-linkedin" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ................SERVIÇOS ............ -->
+    <section id="Service">
+      <div class="container services-container">
+        <p></p>
+        <h2>SERVIÇOS</h2>
+        <div class="service-border"></div>
+        <div class="services-content">
+          <div class="service-box">
+            <img src="{% static 'geral/img/s1.png' %}" alt="" />
+            <h4>Desenvolvimento De Software Móvel</h4>
+          </div>
+          <div class="service-box">
+            <img src="{% static 'geral/img/s2.png' %}" alt="" />
+            <h4>Desenvolvimento De Software Web</h4>
+          </div>
+          <div class="service-box">
+            <img src="{% static 'geral/img/s3.png' %}" alt="" />
+            <h4>Qualidade de Software</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ................PROJETOS ............ -->
+    <section id="Project">
+      <img src="{% static 'geral/img/PROJECT.png' %}" alt="" class="project-text-img" />
+      <div class="container project-cotainer">
+        <h2>PROJETOS</h2>
+        <div class="project-content">
+          <div class="project-box">
+            <h4>Núcleo de Pesquisa</h4>
+            <p class="text-light">
+              O Núcleo de Pesquisa apoia o desenvolvimento de Iniciação
+              Científica, Trabalhos de Conclusão de Curso e demais atividades de
+              Pesquisa produzidas nos Cursos de Ciência da Computação e Sistemas
+              de Informação da UniEVANGÉLICA.
+            </p>
+            <a href="{% url 'projetos' %}" class="btn btn-primary">View Details</a>
+          </div>
+          <div class="project-box">
+            <div class="project-img">
+              <img src="{% static 'geral/img/p1.png' %}" alt="" />
+            </div>
+            <h4>Núcleo de Capacitação</h4>
+            <p class="text-light">
+              O Núcleo de Capacitação entrou em efetivo funcionamento em
+              setembro de 2008. O principal objetivo desse núcleo é realizar
+              atividades de capacitação profissional e repassar os conhecimentos
+              e experiências adquiridas nos projetos de desenvolvimento de
+              sistemas que são executados pelo NFS.
+            </p>
+            <a href="{% url 'projetos' %}" class="btn btn-primary">View Details</a>
+          </div>
+          <div class="project-box">
+            <div class="project-img">
+              <img src="{% static 'geral/img/p1.png' %}" alt="" />
+            </div>
+            <h4>Núcleo Fábrica de Software</h4>
+            <p class="text-light">
+              O Núcleo Fábrica de Software tem por objetivo promover a
+              aproximação entre a teoria estudada nos bacharelados e a prática
+              exigida pelo mercado de trabalho. Esse núcleo é divido em vários
+              centros, onde cada um é responsável por um conjunto de atividades
+              do processo de desenvolvimento de sistemas de informação.
+            </p>
+            <a href="{% url 'projetos' %}" class="btn btn-primary">View Details</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ................SKILLS ............ -->
+    <section id="Skills">
+      <img src="{% static 'geral/img/SKILLS.png' %}" class="skill-img-text" />
+      <div class="container skills-container">
+        <h2>Skills</h2>
+        <div class="skill-content">
+          <img src="{% static 'geral/img/Photoshop.png' %}" alt="" />
+          <img src="{% static 'geral/img/Figma.png' %}" alt="" />
+          <img src="{% static 'geral/img/HTML.png' %}" alt="" />
+          <img src="{% static 'geral/img/CSS.png' %}" alt="" />
+          <img src="{% static 'geral/img/XML.png' %}" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- ................CONTATO ............ -->
+    <footer id="Contact">
+      <div class="container">
+        <div class="contact-left">
+          <h3>Contato</h3>
+          <p class="text-light"></p>
+          <div class="contact-non">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            <div class="div">
+              <p class="text-light">Telefone</p>
+              <p>0800 603 2023</p>
+            </div>
+          </div>
+          <div class="contact-non">
+            <i class="fa fa-message" aria-hidden="true"></i>
+            <div class="div">
+              <p class="text-light">Email</p>
+              <p>imprensa@unievangelica.edu.br/p></p>
+            </div>
+          </div>
+          <div class="contact-non">
+            <i class="fa fa-location" aria-hidden="true"></i>
+            <div class="div">
+              <p class="text-light">Endereço</p>
+              <p>
+                Av. Universitária KM 3,5 - Cidade Universitária Anápolis - GO
+                CEP: 75083-515.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="contact-right">
+          <img src="{% static 'geral/img/imag35.png' %}" alt="" />
+        </div>
+      </div>
+    </footer>
+
+    <!-- SWIPER JS LINK -->
+    <script src="{% static 'geral/js/swiper/swiper-bundle.min.' %}"></script>
+    <!--.......... CUSTOM JS LINK.......... -->
+    <script src="{% static 'geral/js/script.js' %}"></script>
+  </body>
+</html>
